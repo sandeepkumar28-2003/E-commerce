@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+main{
+  margin-top: 100px;
+  border: 2px solid;
+  width: 450px;
+  height: 550px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px black;
+}
+h2{
+  margin-bottom: 2px;
+}
+form{
+  margin-top: 15px;
+}
+#container{
+  line-height: 34px;
+  padding-left: 30px;
+}
+input::placeholder{
+  padding-left: 10px;
+}
+input{
+  width: 370px;
+  height: 30px;
+}
+button{
+  height: 40px;
+  width: 378px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#copy-right{
+  font-size: small;
+  color: rgb(186, 183, 183);
+}
+label{
+  font-weight: bold;
+}
